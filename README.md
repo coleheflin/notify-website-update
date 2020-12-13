@@ -1,2 +1,5 @@
 # notify-website-update
-Using selenium to interact/scrape vineyard vines website to check when a piece of clothing comes back in stock
+Utilizing the Python package Selenium to interact/scrape websites and notify users via email when an update has occured.
+
+## Initial use case
+Check when an article of clothing on https://www.vineyardvines.com/ is back in-stock.
