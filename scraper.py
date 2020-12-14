@@ -4,7 +4,13 @@ import logging
 import smtplib, ssl
 
 
-def send_email():
+# TODO:
+# set up env vars for gmail accounts, password, client secret/token
+# connect to gmail api
+# send test emails
+
+
+def send_email(sender_email,receiver_email):
 	return None
 
 found_size = False
@@ -26,7 +32,7 @@ for size in list_of_sizes:
 		found_size = True
 		print('Found your size! Sending email to notify.')
 		logging.info(f'Found correct size! Sending email to notify.')
-		
+
 logging.info(f'Closing out of web browser')
 driver.quit()
 
