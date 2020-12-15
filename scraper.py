@@ -8,7 +8,6 @@ import os
 
 
 # TODO:
-# add comments
 # Automate using lambda functions
 
 
